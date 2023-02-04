@@ -3,9 +3,9 @@ from sqlalchemy.orm import Session
 
 pg_uri = URL.create(
     "postgresql+psycopg2",
-    username="citus",
-    password="P0stM3##",
-    host="c.sophocles.postgres.database.azure.com",
+    username="****",
+    password="****",
+    host="c.****.postgres.database.azure.com",
     port=5432,
     database="citus",
     query={"sslmode": "require", "sslrootcert":"/Users/edmundlskoviak/.ssh/DigiCertGlobalRootG2.crt.pem"}

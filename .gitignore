@@ -1,1 +1,4 @@
 **/vpython3.11
+**/instance
+**/__pycache__
+**/*.pyc
